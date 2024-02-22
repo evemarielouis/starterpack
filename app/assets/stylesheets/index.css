@@ -1,19 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
-.container {
+/* BIGGEST CONTAINER THAT HOLDS EVERYTHING */
+.mainContainer {
     position:absolute;
-    background-image: url("https://images2.imgbox.com/d2/aa/OwGtJ4Ei_o.png");
+    background-image: url("https://images2.imgbox.com/74/50/Z8y9i5q2_o.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    min-height: 100%;
     width:100%;
     margin-left: -10px;
 }
 
-.container h1 {
+.mainContainer .nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContainer h1 {
     font-family: "VT323", monospace;
     text-transform: lowercase;
     margin-left: 2.5em;
     color:#fff;
     margin-top:-0.1em;
 }
+
+.mainContainer a.backButton {
+    color: white;
+    font-size: 40px;
+    margin-right: 0.4em;
+    text-decoration: none;
+}
+.mainContainer a.backButton:visited {
+    color:#fff;
+}
+
+.mainContainer h2 { 
+    font-family: "VT323", monospace;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 64px;
+}
+
+.mainContainer .link {
+    font-family: "VT323", monospace;
+    font-size: 22px;
+    margin-left: 2.5em;
+}
+
+.mainContainer a {
+    color: purple;
+}
+
+.mainContainer a:visited {
+    color: purple;
+}
+
+.mainContainer a:hover {
+    color: grey;
+}
+
+/* CONTAINER FOR THE H2 & PIC */
+.introductionContainer{
+    display:flex;
+    gap:8em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8em;
+}
+
+/* CONTAINER FOR THE PACKS */
+.insideContainer {
+    display: flex;
+    font-family: "VT323", monospace;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.insideContainer ul {
+    display: flex;
+    flex-direction:row;
+    gap: 3em;
+}
+
+.insideContainer li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.insideContainer a {
+    color: blue;
+}
+
+.insideContainer a:visited {
+    color: red;
+}
+
+.insideContainer a:hover {
+    color: grey;
+}
+
