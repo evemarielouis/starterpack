@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.container {
+    position:absolute;
+    background-image: url("https://images2.imgbox.com/d2/aa/OwGtJ4Ei_o.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width:100%;
+    margin-left: -10px;
+}
+
+.container h1 {
+    font-family: "VT323", monospace;
+    text-transform: lowercase;
+    margin-left: 2.5em;
+    color:#fff;
+    margin-top:-0.1em;
+}

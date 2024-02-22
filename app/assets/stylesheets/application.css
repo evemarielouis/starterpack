@@ -13,10 +13,12 @@
  *= require_tree .
  *= require_self
  */
+/* PAGE INDEX */ 
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 .container {
     position:absolute;
-    background-image: url("starterwindow.png");
+    background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -25,7 +27,6 @@
 }
 
 button {
-
 position: absolute;
 right:15px;
 top:15px;

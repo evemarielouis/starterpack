@@ -1,17 +1,17 @@
-<p style="color: green"><%= notice %></p>
+<div class="container">
+  <p style="color: green"><%= notice %></p>
 
-<h1>Starter packs</h1>
+  <h1>starter_packs.exe</h1>
 
-<div id="starter_packs">
+  <div id="starter_packs" class="insideContainer">
   <% @starter_packs.each do |starter_pack| %>
-    <%= render starter_pack %>
+    <%= image_tag starter_pack.icon %>
     <p>
-      <%= link_to "Show this starter pack", starter_pack %>
+      <%= link_to starter_pack.name, starter_pack %>
     </p>
   <% end %>
+  </div>
+
+  <%= link_to "New starter pack", new_starter_pack_path %>
 </div>
-
-<%= link_to "New starter pack", new_starter_pack_path %>
-
-# page choisir starterpack
 
