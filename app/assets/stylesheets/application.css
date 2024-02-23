@@ -268,16 +268,14 @@ top:13.5em;
 }
 
 .case textarea {
-
 line-height: 1;
 border: 2px solid black;
 }
 
 .case input {
-
     line-height: 1;
     border: 2px solid black;
-    }
+}
     
 .create input{
     font-family: "VT323", monospace;
@@ -286,37 +284,30 @@ border: 2px solid black;
     border: 2px solid black;
     padding: 5px;
     padding-inline: 10px;
-    
 }
 
 .create input:hover {
-
     border: 2.5px solid black;
     cursor:cell;
     box-shadow: 10px 6px grey;
-
 }
     
 .closebutton{
-
     position: absolute;
     z-index: 3;
     right:19.9em;
     top:2.1em;
-
-
 }
 
 .navigation {
-position:absolute;
-z-index:3;
-bottom:8em;
-left:34em;
-font-family: "VT323", monospace;
+    position:absolute;
+    z-index:3;
+    bottom:8em;
+    left:34em;
+    font-family: "VT323", monospace;
 }
 
 .navigation a{
-
     color: purple;
 
 }
