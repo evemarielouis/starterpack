@@ -186,3 +186,114 @@ a {
     opacity: 0;
 }
 
+.back {
+    font-family: "VT323", monospace;
+    font-size: 22px;
+    margin-left: 2.5em;
+    position: absolute;
+    z-index: 3;
+    bottom:110px;
+    left:270px;
+}
+
+.back a{
+
+    color: purple;
+}
+
+.back a:hover {
+
+    color: grey;
+}
+
+.blocnote {
+position: absolute;
+top: 50px;
+left:300px;
+z-index: 1;
+}
+
+.formulaire {
+display: flex;
+position: absolute;
+left:470px;
+z-index: 2;
+top:230px;
+}
+
+.create {
+    position: absolute;
+    z-index: 3;
+    left:130px;
+    top:310px;
+    
+}
+
+.col-1 {
+    padding: 10px;
+
+}
+
+.col-2 {
+    padding: 10px;
+
+}
+
+.textform{
+
+    position:absolute;
+    top: 110px;
+    left:350px;
+    z-index:2;
+    font-family: "VT323", monospace;
+    font-size: 22px;
+
+}
+
+.textform h1 {
+
+
+}
+
+
+.textform p{
+
+    margin-top: -25px;
+}
+
+.case {
+    font-family: "VT323", monospace;
+    font-size: 20px;
+    margin:10px;
+}
+
+.case textarea {
+
+line-height: 1;
+border: 2px solid black;
+}
+
+.case input {
+
+    line-height: 1;
+    border: 2px solid black;
+    }
+    
+.create input{
+    font-family: "VT323", monospace;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px;
+    padding-inline: 10px;
+    
+}
+
+.create input:hover {
+
+    border: 2.5px solid black;
+    cursor:cell;
+    box-shadow: 10px 6px grey;
+
+}
+    
