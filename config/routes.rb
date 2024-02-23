@@ -8,4 +8,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "starter_packs#home"
+  get "/home#window", to: "home#window"
 end
