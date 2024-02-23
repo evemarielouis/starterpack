@@ -192,8 +192,8 @@ a {
     margin-left: 2.5em;
     position: absolute;
     z-index: 3;
-    bottom:110px;
-    left:270px;
+    bottom:5.5em;
+    left:12em;
 }
 
 .back a{
@@ -208,7 +208,7 @@ a {
 
 .blocnote {
 position: absolute;
-top: 50px;
+top: 2em;
 left:300px;
 z-index: 1;
 }
@@ -216,9 +216,9 @@ z-index: 1;
 .formulaire {
 display: flex;
 position: absolute;
-left:470px;
+left:30em;
 z-index: 2;
-top:230px;
+top:13.5em;
 }
 
 .create {
@@ -242,8 +242,8 @@ top:230px;
 .textform{
 
     position:absolute;
-    top: 110px;
-    left:350px;
+    top: 4.5em;
+    left: 16em;
     z-index:2;
     font-family: "VT323", monospace;
     font-size: 22px;
@@ -301,8 +301,8 @@ border: 2px solid black;
 
     position: absolute;
     z-index: 3;
-    right:318px;
-    top:51px;
+    right:19.9em;
+    top:2.1em;
 
 
 }
