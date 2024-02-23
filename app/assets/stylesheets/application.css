@@ -297,3 +297,32 @@ border: 2px solid black;
 
 }
     
+.closebutton{
+
+    position: absolute;
+    z-index: 3;
+    right:318px;
+    top:51px;
+
+
+}
+
+.navigation {
+position:absolute;
+z-index:3;
+bottom:110px;
+left:525px;
+font-family: "VT323", monospace;
+}
+
+.navigation a{
+
+    color: purple;
+
+}
+
+.navigation a:hover{
+
+    color: grey;
+
+}
