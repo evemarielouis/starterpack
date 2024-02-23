@@ -66,10 +66,13 @@
 /* CONTAINER FOR THE H2 & PIC */
 .introductionContainer{
     display:flex;
-    gap:8em;
-    align-items: center;
+    gap:2em;
     justify-content: center;
-    margin-top: 8em;
+    margin-top: 2em;
+}
+
+.introductionContainer img {
+    width: 100px;
 }
 
 /* CONTAINER FOR THE PACKS */
@@ -83,7 +86,7 @@
 .insideContainer ul {
     display: flex;
     flex-direction:row;
-    gap: 3em;
+    gap: 2em;
 }
 
 .insideContainer li {
@@ -106,5 +109,8 @@
 }
 
 .information {
-    
+    display: flex;
+    font-family: "VT323", monospace;
+    font-size: 20px;
+    justify-content: center;
 }

@@ -38,6 +38,13 @@
     padding: 2px;
 }
 
+.packTitle a {
+    color: blue;
+}
+
+.packTitle a:hover {
+    color: purple;
+}
 .packTitle h1 {
     margin-left: 2em;
     margin-top: 1.3em;
