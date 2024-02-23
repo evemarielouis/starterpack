@@ -3,7 +3,7 @@
 /* BIGGEST CONTAINER THAT HOLDS EVERYTHING */
 .mainContainer {
     position:absolute;
-    background-image: url("https://images2.imgbox.com/74/50/Z8y9i5q2_o.png");
+    background-image: url("https://images2.imgbox.com/fb/0b/kpMBA1Ua_o.png");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
@@ -14,6 +14,7 @@
 .mainContainer .nav {
     display: flex;
     justify-content: space-between;
+    margin-top: -1.1em;
 }
 
 .mainContainer h1 {
@@ -21,7 +22,7 @@
     text-transform: lowercase;
     margin-left: 2.5em;
     color:#fff;
-    margin-top:-0.1em;
+    margin-top: 0.5em;
 }
 
 .mainContainer a.backButton {

@@ -67,4 +67,5 @@ class StarterPacksController < ApplicationController
     def starter_pack_params
       params.require(:starter_pack).permit(:name, :title, :icon, :image_one, :image_two, :image_three, :image_four, :description)
     end
+
 end
